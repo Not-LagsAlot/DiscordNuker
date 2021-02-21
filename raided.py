@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-client = commands.Bot(command_prefix="$", self_bot=False)
+client = commands.Bot(command_prefix="$", self_bot=False) #You can change the prefix
 client.remove_command("help")
 SPAM_CHANNEL = ["noobs", "LOL fucked", "trash af", "get a good server"]
 SPAM_MESSAGE = ["@everyone fucked :D", "@everyone please get a good server LMAO"]
